@@ -13,7 +13,6 @@ internal class Program
 
     private static void Get3Numbers(IReadOnlyList<int> ar, int tar)
     {
-        // Пример из лекции некорректен, HashMap использовать нельзя, так как числа могут повторяться и они могут быть значимыми, поэтому List
         var res = new List<Tuple<int, int, int>>();
 
         for (var j = 0; j < ar.Count; j++)
